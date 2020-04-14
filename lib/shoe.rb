@@ -4,6 +4,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    @condition = condition
   end
 
   def cobble
@@ -19,5 +20,3 @@ class Shoe
   end
 
 end
-
-shoe.condition = "New" 
