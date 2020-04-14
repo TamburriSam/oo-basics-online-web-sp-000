@@ -11,10 +11,13 @@ class Shoe
   end
 
   def condition=(condition)
-    puts "new"
+    this_condition = condition
+  end
+
+  def condition
+    this_condition
   end
 
 end
 
-shoe = Shoe.new
-shoe.condition
+shoe.condition = "New" 
