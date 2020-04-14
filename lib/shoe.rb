@@ -19,8 +19,5 @@ class Shoe
 #    @condition
 #  end
 
-def condition
-  puts "new"
-end
 
 end
