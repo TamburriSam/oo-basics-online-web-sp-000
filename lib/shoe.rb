@@ -24,6 +24,3 @@ def condition
 end
 
 end
-
-new = Person.new
-new.condition
