@@ -10,8 +10,11 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def condition
+  def condition=(condition)
     puts "new"
   end
 
 end
+
+shoe = Shoe.new
+shoe.condition
