@@ -11,12 +11,19 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
 
-  def condition=(this_condition)
-    @condition = this_condition
-  end
+#  def condition=(this_condition)
+#    @condition = this_condition
+#  end
 
-  def condition
-    @condition
-  end
+#  def condition
+#    @condition
+#  end
+
+def condition
+  puts "new"
+end
 
 end
+
+new = Person.new
+new.condition
